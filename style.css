@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+    background-image: url(background.png);
+}
+form{
+    background-color: #111;
+    width: 40%;
+    opacity: 90%;
+    color: #fff;
+    padding: 2%;
+    border-radius: 8px;
+    margin: 2% auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: #f203e6;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin: 2% 0;
+    text-align: center;
+}
+label{
+    margin: 2% 0;
+    font-weight: 600;
+}
+input{
+    margin: 4px;
+    border-width: 2px;
+    padding: 4px;
+    border-radius: 5px;
+    accent-color: #f203e6;
+}
+a{
+    color: #f203e6;
+    text-decoration: none;
+}
+div input{
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+input[type="submit"]{
+    background-color: rgb(9, 192, 39);
+}
+input[type="submit"]:hover{
+    background-color: rgb(91, 207, 91);
+}
+input[type="reset"]{
+    background-color: rgb(235,14,14);
+}
+input[type="reset"]:hover{
+    background-color: rgb(210,74,74);
+}
+.tc{
+    background-color: #111;
+    width: 40%;
+    opacity: 90%;
+    color: #fff;
+    padding: 2%;
+    border-radius: 8px;
+    margin: 2% auto;
+}
+h2{
+    font-size: 1.1rem;
+    line-height: 42px;
+}
+ul li{
+    margin: 1% 0;
+}
